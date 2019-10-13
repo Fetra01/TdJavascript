@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Algo</title>
+</head>
+<body>
+
+</body>
+<script>
+/*var e=14;
+tab=[1,5,9,14,16,20,25,45,50];
+var min =0;
+var max =tab[tab.length-1];
+var mid;
+	console.log('tab.length =' +tab.length);
+
+	console.log(tab.indexOf(+min));
+	console.log(tab.indexOf(+max));
+		mid =(tab.indexOf(+max)+tab.indexOf(+min))/2;
+	console.log(+tab[mid]);*/
+
+/*while(tab.indexOf(min)<tab.indexOf(max)){
+	mid =(tab.indexOf(+max)+tab.indexOf(+min))/2;
+	console.log(+mid);
+	console.log(+tab[mid]);
+	if(tab[mid]!=e){
+		
+		min=mid+1;
+		console.log('min =' +min)
+	}
+
+	else{
+		max=mid-1;
+		console.log('max = ' +max )
+	}
+}
+if(tab[mid]==e){
+	console.log('on a trouver ' +e);
+}
+else{
+	console.log('on a pas trouver  ' +e);
+
+}*/
+
+
+/*var e=6;
+tab=[1,5,6,9,10,15,25,45,50];
+var min =tab[0];
+var max =tab[tab.length];
+var mid;
+
+while(min<max){
+	mid=(min+max)/2;
+	if(tab[min]<e){
+		min++;
+	}
+	else{
+		max--
+	}
+}
+if(tab[min]==e){
+	console.log('on a trouver ' +e);
+}
+else{
+	console.log('on a pas trouver  ' +e);
+}*/
+
+	var t = [1,2,5,6,9,10];
+	var nb = 4;
+	var i = t.length-1;
+
+	while(t[i] < nb){
+		console.log('t['+i+'] = '+t[i]);
+		t[i+1] = t[i];
+		i--
+	}
+	t[i]=nb;
+
+	for (var j = 0; i < j.length; j++) {
+		console.log('t['+j+'] = ' + t[j]);
+	}
+</script>
+</html>
