@@ -1,0 +1,24 @@
+body{
+	background-image: url("oreoo.jpg") ;
+	background-repeat: no-repeat;
+	background-size: cover;
+	text-align: center;
+}
+.container{
+	display: flex;
+	justify-content: center;
+	align-content:  center;
+}
+
+#affiches{
+	display: flex;
+}
+#affichage{
+	height: 40px;
+	width: 40px;
+	border:solid;
+	font-size: 20px;
+}
+#auto{
+	opacity: 0.2;
+}
